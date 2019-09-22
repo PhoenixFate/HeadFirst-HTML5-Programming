@@ -4,15 +4,17 @@
 <title>Temperatures</title>
 <meta charset="utf-8">
 <script>
-window.onload = showTemps;
 
 function showTemps() {
 	var tempByHour = new Array();
+	console.log(tempByHour.length);
 	tempByHour[0] = 59.2;
 	tempByHour[1] = 60.1;
 	tempByHour[2] = 63;
 	tempByHour[3] = 65;
 	tempByHour[4] = 62;
+
+	console.log(tempByHour.length)
 
 	for (var i = 0; i < tempByHour.length; i++) {
 		var theTemp = tempByHour[i];
@@ -25,6 +27,8 @@ function showTemps() {
 		}
 	}
 }
+window.onload = showTemps;
+
 </script>
 </head>
 <body>
