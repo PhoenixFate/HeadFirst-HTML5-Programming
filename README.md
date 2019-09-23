@@ -40,6 +40,7 @@
 + 对象
    1. 创建对象--使用{ } 创建对象
    var obj={name:"abc",email:"ss"}
+   var obj=new Object()
    2. 访问对象属性
    obj.name
    obj["name"]
@@ -47,4 +48,3 @@
    for(prop in obj){ //prop是key值}
    4. 删除对象属性
    delete obj.name
-    
