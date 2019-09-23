@@ -29,6 +29,7 @@ function getMyLocation() {
 }
 
 function displayLocation(position) {
+	console.log(position)
 	var latitude = position.coords.latitude;
 	var longitude = position.coords.longitude;
 
@@ -132,6 +133,8 @@ function addMarker(map, latlong, title, content) {
 
 
 function displayError(error) {
+	console.log("-----------in error");
+	console.log(error)
 	var errorTypes = {
 		0: "Unknown error",
 		1: "Permission denied",
