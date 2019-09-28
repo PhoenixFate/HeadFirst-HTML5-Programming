@@ -27,12 +27,23 @@
     window.getElementById("xxxx").innerHTML="xxxx"
 + 获得表单输入值
     window.getElementById("sss").value;
++ 获得dom
+    window.getElementById("xxx")
+    window.getElementByTagName("head")[0]    
+
 + 创建元素
     window.createElement("li");
+    window.createElement("script")
++ 元素设置属性
+    element.setAttribute("src")
+    element.setAttribute("id")
+    element.setAttribute("href")
+    element.setAttribute("class")
 + 将一个元素插入到指定元素的子节点中
    var ul=window.getElementById("playList");
    ul.appendChild(li)//尾插法
-   
++ 替换dom节点
+    window.replaceChild(newElement,oldElement);
 + 匿名函数
     function(abc){}
     var f=function(){}
