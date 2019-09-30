@@ -16,7 +16,8 @@ function drawTriangle(canvas, context) {
 	context.moveTo(100, 150);
 	context.lineTo(250, 75);
 	context.lineTo(125, 30);
-	context.closePath();
+	// context.lineTo(100, 150);
+	context.closePath();// 闭合路径的时候会自动画最后一条线
 	context.lineWidth = 5;
 	context.stroke();
 	context.fillStyle = "red";
