@@ -13,18 +13,20 @@ https://pan.baidu.com/s/1in00XOmjJo6-CnvPnINl2w
 ### html4->html5
 + 
 ```
-    https://www.baidu.com/s?wd=idea+%E9%80%89%E4%B8%AD%E4%B8%80%E8%A1%8C&tn=84053098_3_dg&ie=utf-8
-    <!doctype html>
+    old: <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+    new: <!doctype html>
 ```
 +
 ```
-    <link type="hext/css" rel="stylesheet" href="lounge.css">
-    <link rel="stylesheet" href="lounge.css">    
+    old: <link type="hext/css" rel="stylesheet" href="lounge.css">
+    new: <link rel="stylesheet" href="lounge.css">
+    old: <script type="text/javascript“ src="lounge.js"></script>
+    new: <script src="lounge.js"></script>    
 ```
 +
 ```
-    <meta http-equiv="content-type" content="text/html;charset=UTF-8">
-    <meta charset="utf-8">
+    old: <meta http-equiv="content-type" content="text/html;charset=UTF-8">
+    new: <meta charset="utf-8">
 ```
 
 ### javascript
